@@ -16,6 +16,8 @@ const QuoteList = props => {
     });
   };
 
+  useNavigate;
+
   const sortQuotes = (quotes, ascending) => {
     return quotes.sort((quoteA, quoteB) => {
       if (ascending) {
